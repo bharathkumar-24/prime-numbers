@@ -1,0 +1,14 @@
+upper_limit=int(input("enter the upper limit"))
+lower_limit=int(input("enter the lower limit"))
+while lower_limit<=upper_limit:
+    i=2
+    is_prime=False
+    while i<lower_limit:
+        if lower_limit%i==0:
+            is_prime=True
+            break
+        i+=1
+    if is_prime==False:
+        print(lower_limit)
+    lower_limit+=1
+        
