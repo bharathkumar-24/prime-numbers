@@ -1,0 +1,13 @@
+n=int(input("enter a number"))
+x=2
+while x<=n:
+    i=2
+    count=False
+    while i<x:
+        if x%i==0:
+            count=True
+            break
+        i+=1
+    if count==False:
+        print(x)
+    x+=1
